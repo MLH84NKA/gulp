@@ -1,0 +1,15 @@
+doctype html
+html(lang="ru")
+    head
+        block vars
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="css/main.min.css")
+        
+        title= title
+    body
+        include ../chunk/header 
+        block page
+    block scripts 
+    script(src="js/main.js")
